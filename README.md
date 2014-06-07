@@ -4,12 +4,11 @@ Quickbeam
 A simple in-memory key-based byte store
 
 
-quickbeam -addr=":12345"
-
-nc localhost 12345  
+$quickbeam -addr=":12345" &  
+$nc localhost 12345  
 put	awd	This is my data  
 get	awd	  
-This is is data  
+This is my data  
    
 Commands
 
